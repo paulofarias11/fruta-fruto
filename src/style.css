@@ -1,0 +1,36 @@
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover; /*propriedade para cobrir todo o container da imagem */
+    object-position: 0 60%; /* o valor 0 refere-se ao eixo "x" e o valor 60% ao eixo "y" */
+    height: 500px;
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    height: 500px;
+}
+
+.cor-especial {
+    color: darkred!important; /* o uso do important é extremamente restrito, nesse caso foi usado para sobrescreber o bootstrap */
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.card-posicao-img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
